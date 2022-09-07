@@ -1,16 +1,12 @@
 
 import React,{useState} from 'react'
+import CrearUsuarioApp from './components/CrearUsuarioApp';
 
 
 function App() {
-  const [prodComprados, setProdComprados] = useState(0)
-
-  const prodComprar =()=>{
-    setProdComprados(prodComprados +1)
-  }
   return (
     <div className="App">
-      
+      <CrearUsuarioApp/>
     </div>
   );
 }
